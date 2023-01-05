@@ -3,6 +3,8 @@
 #include <stdlib.h>
  #include <cstring>
 // #include<strings.h>
+//[,{.(,),},]
+
 using namespace std;
 
 struct Node {
