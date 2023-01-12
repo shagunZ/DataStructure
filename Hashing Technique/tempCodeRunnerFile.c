@@ -1,0 +1,1 @@
+ SortedInsert(&H[index],key);
