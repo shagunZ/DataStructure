@@ -150,7 +150,7 @@ int Tree::Height(Node *p) {
  
 void Tree::iterativePreorder(Node *p) {
     stack<Node*> stk;
-    while (p != nullptr || ! stk.empty()){
+    while (p != nullptr || ! stk.empty()){ 
         if (p != nullptr){
             cout << p->data << ", " << flush;
             stk.emplace(p);

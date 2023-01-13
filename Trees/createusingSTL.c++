@@ -50,7 +50,7 @@ void Tree::CreateTree() {
     root->lchild = nullptr;
     root->rchild = nullptr;
     q.emplace(root);
- 
+  
     while (! q.empty()){
         p = q.front();
         q.pop();
